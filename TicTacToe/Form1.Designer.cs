@@ -36,15 +36,15 @@
             exitToolStripMenuItem = new ToolStripMenuItem();
             helpToolStripMenuItem = new ToolStripMenuItem();
             abuotToolStripMenuItem = new ToolStripMenuItem();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
+            A1 = new Button();
+            A2 = new Button();
+            A3 = new Button();
+            B1 = new Button();
+            B2 = new Button();
+            B3 = new Button();
+            C1 = new Button();
+            C2 = new Button();
+            C3 = new Button();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -95,109 +95,108 @@
             abuotToolStripMenuItem.Text = "About";
             abuotToolStripMenuItem.Click += abuotToolStripMenuItem_Click;
             // 
-            // button1
+            // A1
             // 
-            button1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(13, 33);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 75);
-            button1.TabIndex = 1;
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            A1.AccessibleName = "";
+            A1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            A1.Location = new Point(13, 33);
+            A1.Name = "A1";
+            A1.Size = new Size(75, 75);
+            A1.TabIndex = 1;
+            A1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // A2
             // 
-            button2.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(94, 33);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 75);
-            button2.TabIndex = 2;
-            button2.UseVisualStyleBackColor = true;
+            A2.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            A2.Location = new Point(94, 33);
+            A2.Name = "A2";
+            A2.Size = new Size(75, 75);
+            A2.TabIndex = 2;
+            A2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // A3
             // 
-            button3.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(175, 33);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 75);
-            button3.TabIndex = 3;
-            button3.UseVisualStyleBackColor = true;
+            A3.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            A3.Location = new Point(175, 33);
+            A3.Name = "A3";
+            A3.Size = new Size(75, 75);
+            A3.TabIndex = 3;
+            A3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // B1
             // 
-            button4.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(13, 114);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 75);
-            button4.TabIndex = 4;
-            button4.UseVisualStyleBackColor = true;
+            B1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            B1.Location = new Point(13, 114);
+            B1.Name = "B1";
+            B1.Size = new Size(75, 75);
+            B1.TabIndex = 4;
+            B1.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // B2
             // 
-            button5.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(94, 114);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 75);
-            button5.TabIndex = 5;
-            button5.UseVisualStyleBackColor = true;
+            B2.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            B2.Location = new Point(94, 114);
+            B2.Name = "B2";
+            B2.Size = new Size(75, 75);
+            B2.TabIndex = 5;
+            B2.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // B3
             // 
-            button6.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.Location = new Point(175, 114);
-            button6.Name = "button6";
-            button6.Size = new Size(75, 75);
-            button6.TabIndex = 6;
-            button6.UseVisualStyleBackColor = true;
+            B3.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            B3.Location = new Point(175, 114);
+            B3.Name = "B3";
+            B3.Size = new Size(75, 75);
+            B3.TabIndex = 6;
+            B3.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // C1
             // 
-            button7.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            button7.Location = new Point(13, 195);
-            button7.Name = "button7";
-            button7.Size = new Size(75, 75);
-            button7.TabIndex = 7;
-            button7.UseVisualStyleBackColor = true;
+            C1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            C1.Location = new Point(13, 195);
+            C1.Name = "C1";
+            C1.Size = new Size(75, 75);
+            C1.TabIndex = 7;
+            C1.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // C2
             // 
-            button8.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            button8.Location = new Point(94, 195);
-            button8.Name = "button8";
-            button8.Size = new Size(75, 75);
-            button8.TabIndex = 8;
-            button8.UseVisualStyleBackColor = true;
+            C2.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            C2.Location = new Point(94, 195);
+            C2.Name = "C2";
+            C2.Size = new Size(75, 75);
+            C2.TabIndex = 8;
+            C2.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // C3
             // 
-            button9.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            button9.Location = new Point(175, 195);
-            button9.Name = "button9";
-            button9.Size = new Size(75, 75);
-            button9.TabIndex = 9;
-            button9.UseVisualStyleBackColor = true;
+            C3.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            C3.Location = new Point(175, 195);
+            C3.Name = "C3";
+            C3.Size = new Size(75, 75);
+            C3.TabIndex = 9;
+            C3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(262, 278);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(C3);
+            Controls.Add(C2);
+            Controls.Add(C1);
+            Controls.Add(B3);
+            Controls.Add(B2);
+            Controls.Add(B1);
+            Controls.Add(A3);
+            Controls.Add(A2);
+            Controls.Add(A1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             MaximizeBox = false;
             Name = "Form1";
             ShowIcon = false;
             Text = "Tic Tac Toe";
-            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
@@ -214,14 +213,14 @@
         private ToolStripMenuItem exitToolStripMenuItem;
         private ToolStripMenuItem helpToolStripMenuItem;
         private ToolStripMenuItem abuotToolStripMenuItem;
-        private Button button1;
-        private Button button9;
-        private Button button8;
-        private Button button7;
-        private Button button6;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
+        private Button A1;
+        private Button C3;
+        private Button C2;
+        private Button C1;
+        private Button B3;
+        private Button B2;
+        private Button B1;
+        private Button A3;
+        private Button A2;
     }
 }
