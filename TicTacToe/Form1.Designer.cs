@@ -105,6 +105,7 @@
             A1.Size = new Size(75, 75);
             A1.TabIndex = 1;
             A1.UseVisualStyleBackColor = true;
+            A1.Click += button_click;
             // 
             // A2
             // 
@@ -114,6 +115,7 @@
             A2.Size = new Size(75, 75);
             A2.TabIndex = 2;
             A2.UseVisualStyleBackColor = true;
+            A2.Click += button_click;
             // 
             // A3
             // 
@@ -123,6 +125,7 @@
             A3.Size = new Size(75, 75);
             A3.TabIndex = 3;
             A3.UseVisualStyleBackColor = true;
+            A3.Click += button_click;
             // 
             // B1
             // 
@@ -132,6 +135,7 @@
             B1.Size = new Size(75, 75);
             B1.TabIndex = 4;
             B1.UseVisualStyleBackColor = true;
+            B1.Click += button_click;
             // 
             // B2
             // 
@@ -141,6 +145,7 @@
             B2.Size = new Size(75, 75);
             B2.TabIndex = 5;
             B2.UseVisualStyleBackColor = true;
+            B2.Click += button_click;
             // 
             // B3
             // 
@@ -150,6 +155,7 @@
             B3.Size = new Size(75, 75);
             B3.TabIndex = 6;
             B3.UseVisualStyleBackColor = true;
+            B3.Click += button_click;
             // 
             // C1
             // 
@@ -159,6 +165,7 @@
             C1.Size = new Size(75, 75);
             C1.TabIndex = 7;
             C1.UseVisualStyleBackColor = true;
+            C1.Click += button_click;
             // 
             // C2
             // 
@@ -168,6 +175,7 @@
             C2.Size = new Size(75, 75);
             C2.TabIndex = 8;
             C2.UseVisualStyleBackColor = true;
+            C2.Click += button_click;
             // 
             // C3
             // 
@@ -177,6 +185,7 @@
             C3.Size = new Size(75, 75);
             C3.TabIndex = 9;
             C3.UseVisualStyleBackColor = true;
+            C3.Click += button_click;
             // 
             // Form1
             // 
