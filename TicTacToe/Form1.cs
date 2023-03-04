@@ -11,5 +11,10 @@ namespace TicTacToe
         {
             MessageBox.Show("Tic Tac toe rules: ", "Rules");
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

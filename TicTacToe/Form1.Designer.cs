@@ -80,6 +80,7 @@
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             exitToolStripMenuItem.Size = new Size(132, 22);
             exitToolStripMenuItem.Text = "Exit";
+            exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
             // helpToolStripMenuItem
             // 
@@ -194,8 +195,11 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             MaximizeBox = false;
+            MaximumSize = new Size(278, 317);
+            MinimumSize = new Size(278, 317);
             Name = "Form1";
             ShowIcon = false;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tic Tac Toe";
             ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             menuStrip1.ResumeLayout(false);
